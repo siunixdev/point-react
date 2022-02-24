@@ -1,9 +1,9 @@
 import React from 'react'
 import './Card.sass'
 
-const Card = ({ body: body }) => {
+const Card = ({ children }) => {
   return (
-    <div className={`card`}>{body}</div >
+    <div className={`card`}>{children}</div >
   )
 }
 
