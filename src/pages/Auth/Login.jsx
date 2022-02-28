@@ -10,12 +10,12 @@ const LoginForm = () => {
 
   return (
     <div className='max-w-xs sm:max-w-2xl'>
-      <div className='flex flex-col mb-6'>
-        <span className='auth__title'>Point</span>
-        <span className='auth__subtitle'>Login to your Account</span>
-        <span className='auth__description'>Thank you for get back to Point System, Lets Access for now!</span>
+      <div className='auth__header'>
+        <span className='header__title'>Point</span>
+        <span className='header__subtitle'>Login to your Account</span>
+        <span className='header__description'>Thank you for get back to Point System, Lets Access for now!</span>
       </div>
-      <div className='max-w-3xl'>
+      <div className='auth__body'>
         <div className='mb-6'>
           <div className="mb-5">
             <label htmlFor="email" className="text-sm text-gray-800">Your email</label>

@@ -14,12 +14,12 @@ const LoginForm = () => {
 
   return (
     <div className='max-w-xs sm:max-w-2xl'>
-      <div className='flex flex-col mb-6'>
-        <span className='auth__title'>Point</span>
-        <span className='auth__subtitle'>Manage and control your system</span>
-        <span className='auth__description'>Let’s get all your setup and so you can verify you account and Make it Easy!</span>
+      <div className='auth__header'>
+        <span className='header__title'>Point</span>
+        <span className='header__subtitle'>Manage and control your system</span>
+        <span className='header__description'>Let’s get all your setup and so you can verify you account and Make it Easy!</span>
       </div>
-      <div className='max-w-3xl'>
+      <div className='auth__body'>
         <div className='mb-6'>
           <div className='grid grid-cols-1 md:grid-cols-12 gap-x-4'>
             <div className='md:col-span-6'>
